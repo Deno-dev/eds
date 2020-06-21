@@ -12,7 +12,7 @@
             <img src="images/logo-suanet.png" width="380px;">
         </div>
         <div class="form-box">
-            <form action="validass.php" method="post" name="formlogin">
+            <form action="valida.php" method="post" name="formlogin">
                 <div>
                     <input type="text" name="usuario" placeholder="Usuário" class="form-input" required="">
                 </div>
