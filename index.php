@@ -26,7 +26,7 @@
         </div>
         <br>
         <center>Ainda não tem uma conta? <a href="index.php">Registre-se</a></center>
-        <footer>
+        <footer class="footer">
             DevDênis - Suanet Telecomunicações - Todos os Direitos reservados - 2020.
         </footer>
     </div>
