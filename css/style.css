@@ -155,6 +155,7 @@ nav a{
     font-size: 20px;
 }
 .formcadastro input{
+    padding-left: 10px;
     margin-bottom: 5%;
     border: none;
     width: 100%;
@@ -162,9 +163,13 @@ nav a{
     border-radius: 10px;
 }
 .formcadastro .botao{
+    border: none;
     color: white;
     background-color: #003471;
     border-radius: 10px;
-    width: 100px;
-    height: 30px;
+    width: 110px;
+    height: 35px;
+}
+.formcadastro .botao:hover{
+    border: 1px solid white;
 }

@@ -14,10 +14,10 @@
 			</div>
 			<div class="formcadastro">
 				<center><p>Cadastre-se em nosso sistema de atendimento:</p></center>
-				<form name="formcadastro" id="formcadastro" action="valida.php" method="post">
-					<input type="text" name="usuario" placeholder="  Seu usuário...">
-					<input type="password" name="senha" placeholder="  Sua senha...">
-					<input type="password" name="confirm" placeholder="  Confirme sua senha...">
+				<form name="formcadastro" id="formcadastro" action="validac.php" method="post">
+					<input type="text" name="usuario" placeholder="Seu usuário..." required="">
+					<input type="password" name="senha" placeholder="Sua senha..." required="">
+					<input type="password" name="confirmacao" placeholder="Confirme sua senha..." required="">
 					<center><button class="botao" type="submit" form="formcadastro" value="Cadastrar">Cadastrar</button></center>
 				</form>
 			</div>
