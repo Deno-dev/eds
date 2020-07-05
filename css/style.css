@@ -113,7 +113,7 @@ nav a{
     flex-direction: column;
     width: 100%;
     position: absolute;
-    bottom: 10%;
+    bottom: 5%;
 }
 .container-index {
     width: 100vw;

@@ -24,7 +24,7 @@
 	}else{
 		echo "<script>
 				alert('Usuário ou senha incorretos! Verifique as informações, em caso de necessidade contate o administrador do sistema!');";
-		echo "javascript:window.location='index.php';
+		echo "javascript:window.location='login.php';
 		    </script>";
 	}
 	$query->free();

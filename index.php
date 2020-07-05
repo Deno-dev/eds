@@ -21,6 +21,9 @@
 					<center><button class="botao" type="submit" form="formcadastro" value="Cadastrar">Cadastrar</button></center>
 				</form>
 			</div>
+			<footer class="footer">
+				Dênis Silva - Suanet Telecomunicações LTDA - 2020
+			</footer>
 		</div>
 	</body>
 </html>
