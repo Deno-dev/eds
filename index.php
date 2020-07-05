@@ -1,34 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <title> SuaNET - Login </title>
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-png">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <div class="container">
-        <div style="margin-bottom: 20px;">
-            <img src="images/logo-suanet.png" width="380px;">
-        </div>
-        <div class="form-box">
-            <form action="valida.php" method="post" name="formlogin">
-                <div>
-                    <input type="text" name="usuario" placeholder="Usuário" class="form-input" required="">
-                </div>
-                <div>
-                    <input type="password" name="senha" placeholder="Senha" class="form-input" required="">
-                </div>
-                <div>
-                    <input type="submit" value="Entrar" class="form-btn">
-                </div>
-            </form>
-        </div>
-        <br>
-        <center>Ainda não tem uma conta? <a href="index.php">Registre-se</a></center>
-        <footer class="footer">
-            DevDênis - Suanet Telecomunicações - Todos os Direitos reservados - 2020.
-        </footer>
-    </div>
-</body>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>SuaNET - Cadastre-se!</title>
+		<link rel="shortcut icon" href="images/favicon.png" type="image/x-png">
+    	<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body style="background-color: black;">
+		<div class="container-index">
+			<div class="logo">
+				<img src="images/logo-suanet.png"> <br>
+				<center><p>FICOU AINDA MAIS FÁCIL SER ATENDIDO!</p></center>
+			</div>
+			<div class="formcadastro">
+				<center><p>Cadastre-se em nosso sistema de atendimento:</p></center>
+				<form name="formcadastro" id="formcadastro" action="valida.php" method="post">
+					<input type="text" name="usuario" placeholder="  Seu usuário...">
+					<input type="password" name="senha" placeholder="  Sua senha...">
+					<input type="password" name="confirm" placeholder="  Confirme sua senha...">
+					<center><button class="botao" type="submit" form="formcadastro" value="Cadastrar">Cadastrar</button></center>
+				</form>
+			</div>
+		</div>
+	</body>
 </html>
