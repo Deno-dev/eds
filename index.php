@@ -8,6 +8,9 @@
 	</head>
 	<body style="background-color: black;">
 		<div class="container-index">
+			<div class="logado">
+				<a href="login.php"><button class="botao" href='login.php'>Já possui conta? Entre clicando aqui!</button></a>
+			</div>
 			<div class="logo">
 				<img src="images/logo-suanet.png"> <br>
 				<center><p>FICOU AINDA MAIS FÁCIL SER ATENDIDO!</p></center>
