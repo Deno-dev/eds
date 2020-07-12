@@ -3,12 +3,11 @@ font-family: bahnschrift;
      src: url("/fonts/BAHNSCHRIFT.eot");
 }
 body {
-    background-color: white;
+    background-color: black;
     font-family: bahnschrift;
     padding: 0;
     margin: 0;
 }
- 
 .container {
     width: 100vw;
     height: 100vh;
@@ -64,8 +63,9 @@ footer{
 .barra{
     background-color: #333;
     height: 100%;
+    overflow: auto;
     width: 300px;
-    position: absolute;
+    position: fixed;
     transition: all .2s linear;
     left: -300px;
 }
@@ -78,7 +78,9 @@ nav a{
     text-decoration: none;
 }
 .link{
-    background-color: #494950;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    background-color: #808080;
     padding: 20px;
     font-family: 'BAHNSCHRIFT';
     font-size: 12pt;
@@ -86,7 +88,7 @@ nav a{
     color: white;
 }
 .link:hover{
-    background-color: #050542;
+    background-color: #034c5f;
     border-right: 2px solid white;
 }
 #check:checked ~ .barra{
@@ -100,7 +102,6 @@ nav a{
     height: 100%;
     width: 300px;
     position: absolute;
-    transition: all .2s linear;
     right: 0;
 }
 .foto-usuario{
@@ -182,4 +183,23 @@ nav a{
 }
 .botao:hover{
     border: 1px solid white;
+}
+.chat{
+    transition: all .2s linear;
+    right: 0px;
+    display: none;
+    align-items: flex-end;
+    width: 75%;
+    height: 100%;
+    background-color: black;
+    position: absolute;
+}
+.mensagem{
+    font-size: 14px;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-left: 30px;
 }
