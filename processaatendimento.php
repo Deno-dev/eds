@@ -11,7 +11,7 @@ if (isset($_GET["id"])) {
 			$pesquisanome = $link->query("select * from users where idusers = '$idusuario'");
 			$fetchnome = $pesquisanome->fetch_object();
 			$nomedoindividuo = $fetchnome->usuario;
-			echo "<div class='mensagem'>";
+			echo "<div class='" .  "mensagem'>";
 			echo "<h3>" . $nomedoindividuo . "</h3>";
 			echo "<p>" . $dados->mensagem . "</p>";
 			echo "</div>";

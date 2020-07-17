@@ -7,6 +7,7 @@ body {
     font-family: bahnschrift;
     padding: 0;
     margin: 0;
+    color: white;
 }
 .container {
     width: 100vw;
@@ -88,7 +89,7 @@ nav a{
     color: white;
 }
 .link:hover{
-    background-color: #034c5f;
+    background-color: #4059ad;
     border-right: 2px solid white;
 }
 #check:checked ~ .barra{
@@ -181,6 +182,14 @@ nav a{
     border-radius: 10px;
     height: 35px;
 }
+.encerrar{
+    padding: 10px;
+    border: none;
+    color: white;
+    background-color: #EF233C;
+    border-radius: 10px;
+    height: 35px;
+}
 .botao:hover{
     border: 1px solid white;
 }
@@ -202,4 +211,23 @@ nav a{
     background-color: #333;
     color: white;
     margin-left: 30px;
+}
+.inputmensagem{
+    border: none;
+    padding: 10px;
+    transition: all .2s linear;
+    width: 60%;
+    bottom: 10px;
+    position: absolute;
+    background-color: #333;
+    color: white;
+    border-radius: 30px;
+}
+.corpo-mensagens{
+    margin-bottom: 50px;
+}
+.submit{
+    position: absolute;
+    right: 320px;
+    bottom: 5px;
 }
